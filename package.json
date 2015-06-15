@@ -1,11 +1,9 @@
 {
-	"name": 		"node-ner",
+	"name": 		"node-ner-client",
 	"author": {
-		"name": "Julien Loutre",
-		"email": "julien@twenty-six-medias.com",
-		"url": "http://www.twenty-six-medias.com/"
+		"name": "Hitesh Joshi"
 	},
-	"description": 	"NodeJS Named Entity Recognition, using Stanford NER (easy install)",
+	"description": 	"Nodejs client for NERServer",
 	"version":		"0.0.2",
 	"keywords": [
 	"nlp",
@@ -16,15 +14,7 @@
 	"recognition",
 	"java"
 	],
-	"homepage": "https://github.com/26medias/node-ner",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/26medias/node-ner.git"
-	},
-	"bugs": {
-		"url": "https://github.com/26medias/node-ner/issues"
-	},
-	"main": "node-ner.js",
+	"main": "index.js",
 	"readmeFilename": "README.md",
 	"licenses": [
 	{
@@ -33,7 +23,9 @@
 	}
 	],
 	"dependencies": {
-		"underscore":	"latest"
+		"underscore":	"latest",
+		"express" : "latest",
+		"body-parser":"latest"
 	}
 }
 
